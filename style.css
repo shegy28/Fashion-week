@@ -50,7 +50,7 @@ header {
   text-align: left;
   color: #272a31;
   padding: 0 4%;
-  background-color: rgb(183, 187, 192,0.4);
+  background-color: rgb(183, 187, 192, 0.4);
   border: 2px solid #ffff;
   font-family: 'lato', sans-serif;
   font-size: 13px;
@@ -366,12 +366,15 @@ footer {
   font-size: 20px;
 }
 
-.navbar-1 , .menu, .see-more, .footer-text1{
+.navbar-1,
+.menu,
+.see-more,
+.footer-text1 {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  .hamburger-icon{
+  .hamburger-icon {
     display: none;
   }
 
@@ -396,13 +399,14 @@ footer {
     color: white;
     font-size: larger;
   }
+
   .nav-items {
     color: #f0f2f5;
     font-size: 16px;
     font-family: "Lato", sans-serif;
     text-decoration: none;
   }
-  
+
   .menu {
     display: flex;
     flex-direction: row;
@@ -415,11 +419,9 @@ footer {
 
   .desktop-logo img {
     width: 40%;
-  
   }
 
   .navbar-2 {
-    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -466,7 +468,7 @@ footer {
 
   .fashion-quote {
     width: 60%;
-    background-color: rgb(183, 187, 192,0.6);
+    background-color: rgb(183, 187, 192, 0.6);
     padding: 1% 1% 1% 2%;
   }
 
@@ -477,7 +479,7 @@ footer {
   .time-location h2 {
     font-size: 48px;
     margin: 4% 0 0 0;
-  }  
+  }
 
   .time-location p {
     font-size: 40px;
@@ -504,7 +506,6 @@ footer {
     flex-direction: column;
     padding: 2%;
     text-align: center;
-
   }
 
   .program-icon {
@@ -513,7 +514,8 @@ footer {
     width: auto;
   }
 
-  .program-icon div span, .program-icon div i {
+  .program-icon div span,
+  .program-icon div i {
     font-size: 60px;
   }
 
@@ -553,7 +555,6 @@ footer {
     flex-direction: row;
     margin: 0 5%;
     flex-wrap: wrap;
-    gap: 2;
     justify-content: space-between;
   }
 
@@ -563,7 +564,7 @@ footer {
     margin-bottom: 10px;
     width: 48%;
   }
-   
+
   .partners {
     flex-wrap: nowrap;
     margin: 40px 110px;
@@ -597,7 +598,5 @@ footer {
     color: #272a31;
     font-weight: 900;
     margin-top: 20px;
-
   }
-
 }
