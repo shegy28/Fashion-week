@@ -50,6 +50,7 @@ header {
   text-align: left;
   color: #272a31;
   padding: 0 4%;
+  background-color: rgb(183, 187, 192, 0.4);
   border: 2px solid #ffff;
   font-family: 'lato', sans-serif;
   font-size: 13px;
@@ -363,4 +364,239 @@ footer {
 
 .past-year h4 {
   font-size: 20px;
+}
+
+.navbar-1,
+.menu,
+.see-more,
+.footer-text1 {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger-icon {
+    display: none;
+  }
+
+  .top-section {
+    padding-bottom: 1%;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .navbar-1 {
+    padding: 0.8% 13%;
+    background-color: #2b2e35;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 3%;
+  }
+
+  .navbar-1 i {
+    color: white;
+    font-size: larger;
+  }
+
+  .nav-items {
+    color: #f0f2f5;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0% 13%;
+    background-color: #f0f2f5;
+  }
+
+  .desktop-logo img {
+    width: 40%;
+  }
+
+  .navbar-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 5%;
+    width: 60%;
+    margin: 0;
+  }
+
+  .nav-items2 {
+    color: #272a31;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+  }
+
+  .campaign {
+    border: #c21b09 solid 4px;
+    padding: 3%;
+    flex-shrink: 0;
+  }
+
+  .campaign-text {
+    color: #c21b09;
+  }
+
+  .hero-section {
+    margin: 7% 13%;
+  }
+
+  .hero-header-div {
+    width: 70%;
+  }
+
+  .hero-header-div div h3 {
+    font-size: 39px;
+  }
+
+  .hero-header-div h1 {
+    font-size: 60px;
+  }
+
+  .fashion-quote {
+    width: 60%;
+    background-color: rgb(183, 187, 192, 0.6);
+    padding: 1% 1% 1% 2%;
+  }
+
+  .fashion-quote p {
+    font-size: 18px;
+  }
+
+  .time-location h2 {
+    font-size: 48px;
+    margin: 4% 0 0 0;
+  }
+
+  .time-location p {
+    font-size: 40px;
+    margin: 1% 0 0 0;
+  }
+
+  .program-section {
+    padding-top: 5%;
+  }
+
+  .program-header {
+    font-size: 40px;
+  }
+
+  .programs-holder {
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin: 0;
+  }
+
+  .programs {
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .program-icon {
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+  }
+
+  .program-icon div span,
+  .program-icon div i {
+    font-size: 60px;
+  }
+
+  .program-icon h4 {
+    color: #ec5242;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+  }
+
+  .program-text {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .see-more {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 5% 0;
+  }
+
+  .speakers-section {
+    padding-top: 50px;
+  }
+
+  .speakers-holder {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .speaker {
+    display: flex;
+    gap: 5%;
+    margin-bottom: 10px;
+    width: 48%;
+  }
+
+  .partners {
+    flex-wrap: nowrap;
+    margin: 40px 110px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0%;
+  }
+
+  .footer-image {
+    width: auto;
+  }
+
+  .footer-image img {
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+  }
+
+  .footer-text {
+    display: none;
+  }
+
+  .footer-text1 {
+    display: inline;
+    font-size: 20px;
+    flex-shrink: 1;
+    font-family: "Lato", sans-serif;
+    color: #272a31;
+    font-weight: 900;
+    margin-top: 20px;
+  }
 }
