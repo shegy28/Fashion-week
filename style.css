@@ -11,9 +11,10 @@ body {
 
 .top-section {
   background-image: url("./images/background\ top.jpg");
-  height: 80vh;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 10%;
 }
 
 header {
@@ -160,8 +161,9 @@ header {
 }
 
 .speakers-section {
-  margin-top: 40px;
+  padding-top: 10px;
   padding-bottom: 30px;
+  background-color: aliceblue;
 }
 
 .speaker-header {
@@ -237,6 +239,8 @@ header {
   flex-wrap: wrap;
   margin: 40px 20px;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .partner-img {
@@ -274,4 +278,93 @@ footer {
 .footer-text p {
   margin: 0;
   letter-spacing: 1px;
+}
+
+/* About us style below */
+
+
+
+.about-hero {
+    text-align: center;
+}
+
+.about-quote {
+    background-color: #b7bbc0;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.contact-quote {
+    text-align: center;
+    color: #272a31;
+    padding: 0 4%;
+    font-family: 'lato', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.about-email {
+    font-weight: 900;
+    text-decoration: underline;
+    line-height: 2%;
+    letter-spacing: normal;
+}
+
+.logo-section {
+    padding-top: 10%;
+}
+
+.logo-holder {
+    margin: 8% 5% 12% 5%;
+    border: solid 1px #272a31;
+}
+
+.logo-holder img {
+    width: 100%;
+}
+
+.line {
+    width: 98%;
+    border-color: #b7bbc0;
+    margin: 0 auto;
+}
+
+.logo-hr {
+    margin-bottom: 8%;
+}
+
+.past-event {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 20px;
+}
+
+.past-event1 {
+    margin: 0 3%;
+    background-image:  linear-gradient( rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)) , url(./images/pastwrok1.jpg);
+    padding:  10% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.past-event2 {
+  margin: 0 3%;
+  background-image:  linear-gradient( rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)) , url(./images/past2.jpg);
+  padding:  10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.past-year {
+    font-family: 'lato', sans-serif;
+    font-weight: 900;
+    color: #f0f2f5;
+    text-align: center;
+}
+
+.past-year h4 {
+     font-size: 20px;
 }
