@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://github.com/shegy28/Fashion-week/)
+[Live Demo Link](https://shegy28.github.io/Fashion-week/)
 
 ## Project Presentation
 
