@@ -76,7 +76,7 @@ header {
 }
 
 .hamburger-icon {
-  font-size: larger;
+  font-size: xx-large;
 }
 
 .hero-section {
@@ -94,7 +94,7 @@ header {
 .hero-header-div h1 {
   margin: 10px 0;
   font-family: 'lato', sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 900;
   margin-bottom: 30px;
   color: #c21b09;
