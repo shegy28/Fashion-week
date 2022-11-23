@@ -1,4 +1,4 @@
-# Portfolio-setup-and-mobile-first
+# Fashion Week 2022
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project
