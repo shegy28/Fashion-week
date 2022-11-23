@@ -1,66 +1,140 @@
-# Fashion Week 2022
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project
+<!-- PROJECT DESCRIPTION -->
 
-> Capstone Project 1
+# 📖 [Fashion Week 2022] <a name="about-project"></a>
 
-## Built With
+> A website that tell and shows more information about a fashion event that is held annually.
 
-- HTML
-- CSS
-- JAVASCRIPT
+**[Fashion Week 2022]** is a Capstone from microverse.
 
-## Live Demo 
+## 🛠 Built With <a name="built-with"></a>
 
-[Live Demo Link](https://shegy28.github.io/Fashion-week/)
+### Tech Stack <a name="tech-stack"></a>
 
-## Project Presentation
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-[Project Presentation Video Link](https://www.loom.com/share/c133879ea96a4e29846be2e0390ac07f)
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-## Getting Started
+<details>
+<summary>JAVASCRIPT</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-**If you want to this project kindly check the [ GitHub repository](https://github.com/shegy28/Fashion-week)**
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Responsive for both Desktop and Mobile**
+- **Speaker Section created dynamically**
+- **Designed with mobile first concept**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://shegy28.github.io/Fashion-week/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-
 -Code Editor:[visual Studio code](https://code.visualstudio.com/)
 -Web Browser
+<!--
+Example command:
 
+```sh
+ gem install rails
+```
+ -->
 ### Setup
 
-```
-git clone https://github.com/shegy28/Fashion-week.git
-```
+Clone this repository to your desired folder:
 
-Open a index.html file with your code editor of your choice and/or a browser of your choice.
-
+```sh
+  cd my-folder
+  git clone https://github.com/shegy28/Fashion-week.git
 ```
-Open the project using a  default run debug feature that can be found into your code editor.
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- AUTHORS -->
 
-## Authors
+## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Author1**
 
 - GitHub: [@Shegy28](https://github.com/shegy28)
+- Twitter: [@Shegy28](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chimezie-asouzu-67704224a/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **A ticket Booking page**
+- [ ] **A gallery page**
+- [ ] **Competition page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/shegy28/Fashion-week/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Inspiration: [Cindy Shin](https://www.behance.net/adagio07)
+If you like this project please share and contribute
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank  [Cindy Shin](https://www.behance.net/adagio07)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
