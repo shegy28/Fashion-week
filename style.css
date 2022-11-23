@@ -632,13 +632,12 @@ footer {
   .speaker-name {
     font-size: 22px;
   }
-  
+
   .speaker-title,
-  .speaker-title2 
-  {
+  .speaker-title2 {
     font-size: 16px;
   }
-  
+
   .partners {
     flex-wrap: nowrap;
     margin: 40px 110px;
