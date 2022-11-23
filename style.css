@@ -219,7 +219,7 @@ header {
 .speakers-section {
   padding-top: 10px;
   padding-bottom: 30px;
-  background-color: aliceblue;
+  background-image: url("./images/background\ top.jpg");
 }
 
 .speaker-header {
@@ -474,7 +474,7 @@ footer {
     align-items: center;
     margin: 0;
     padding: 0% 13%;
-    background-color: #f0f2f5;
+    background-color: #fff;
   }
 
   .desktop-logo img {
@@ -629,6 +629,16 @@ footer {
     width: 48%;
   }
 
+  .speaker-name {
+    font-size: 22px;
+  }
+  
+  .speaker-title,
+  .speaker-title2 
+  {
+    font-size: 16px;
+  }
+  
   .partners {
     flex-wrap: nowrap;
     margin: 40px 110px;
