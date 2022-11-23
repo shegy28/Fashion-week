@@ -13,11 +13,32 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="main-container">
+    <!-- mobile drop dowm menu starts-->
+    <div class="mobile-menu" id="drop-down">
+        <div class="x-icon" onclick="closeNav()">
+            <i class="fa-solid fa-xmark" id="menu-btn-2"></i>
+        </div>
+        <nav>
+            <ul class="mobile-nav">
+                <li class="">
+                    <a href="./index.html" onclick="closeNav()">
+                        <img class="mobile-logo" src="./images/Fashion Phest.png" alt="Logo">
+                    </a>
+                </li>
+                <li ><a href="./about.html" onclick="closeNav()">About</a></li>
+                <li ><a href="#programs" onclick="closeNav()">Program</a></li>
+                <li ><a href="#join" onclick="closeNav()">Join</a></li>
+                <li ><a href="#partners" onclick="closeNav()">Sponsor</a></li>
+                <li ><a href="#" onclick="closeNav()">News</a></li>
+              </ul>
+        </nav>
+    </div>
+    <!-- mobile drop dowm menu ends -->
+    <div class="main-container" id="container" >
         <section class="top-section about-section">
             <header>
                 <div class="hamburger-icon">
-                    <i class="fa-sharp fa-solid fa-bars"></i>
+                    <i class="fa-sharp fa-solid fa-bars" onclick="openNav()"></i>
                 </div>
                 <!-- for desktop -->
                 <nav class="navbar-1">
@@ -35,7 +56,7 @@
                         <li><a class="nav-items2" href="./about.html">About</a></li>
                         <li><a class="nav-items2" href="#">Program</a></li>
                         <li><a class="nav-items2" href="#">Join</a></li>
-                        <li><a class="nav-items2" href="#">Sponsor</a></li>
+                        <li><a class="nav-items2" href="#partners">Sponsor</a></li>
                         <li><a class="nav-items2" href="#">News</a></li>
                         <li class="campaign"><a class="nav-items2 campaign-text " href="#">FP Campaign</a></li>
                     </ul>
@@ -101,7 +122,7 @@
             </div>
         </section>
 
-        <section class="partners-section">
+        <section class="partners-section" id="partners">
             <div class="partner-header">
                 <h3 class="program-header">Partners</h3>
             </div>

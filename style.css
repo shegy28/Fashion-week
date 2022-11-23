@@ -4,6 +4,60 @@ body {
   box-sizing: border-box;
 }
 
+/* for mobile menu */
+.mobile-menu {
+  background-color: #ec4242de;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: none;
+  animation-duration: 0.7s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+.x-icon {
+  text-align: end;
+  font-size: xx-large;
+  padding: 4% 8%;
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+
+.mobile-nav li a {
+  font-family: 'lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #2b2e35;
+  text-decoration: none;
+}
+
+.mobile-logo {
+  width: auto;
+  height: 60px;
+}
+
+/* mobile menu ends */
+
 .main-container {
   margin: 0;
   height: 100vh;
