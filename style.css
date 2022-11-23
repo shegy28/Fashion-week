@@ -34,12 +34,13 @@ header {
   color: brown;
   font-family: 'lato', sans-serif;
   margin: 0 0;
+  font-size: 25px;
 }
 
 .hero-header-div h1 {
   margin: 10px 0;
   font-family: 'lato', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 900;
   margin-bottom: 30px;
   color: #c21b09;
@@ -366,10 +367,15 @@ footer {
   font-size: 20px;
 }
 
+.programs:hover {
+  border: #f0f2f5 solid 1px;
+}
+
 .navbar-1,
 .menu,
 .see-more,
-.footer-text1 {
+.footer-text1,
+.span-logo-quote {
   display: none;
 }
 
@@ -463,7 +469,7 @@ footer {
   }
 
   .hero-header-div h1 {
-    font-size: 60px;
+    font-size: 80px;
   }
 
   .fashion-quote {
@@ -558,6 +564,10 @@ footer {
     justify-content: space-between;
   }
 
+  .speaker-header {
+    font-size: 40px;
+  }
+
   .speaker {
     display: flex;
     gap: 5%;
@@ -598,5 +608,80 @@ footer {
     color: #272a31;
     font-weight: 900;
     margin-top: 20px;
+  }
+
+  /* about page */
+
+  .about-hero,
+  .about-quote {
+    margin: 0 auto;
+  }
+
+  .contact-quote {
+    font-size: 18px;
+  }
+
+  .about-hero div h3 {
+    display: none;
+  }
+
+  .logo-quote {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .span-logo-quote {
+    display: inline;
+  }
+
+  .logo-section {
+    padding-top: 3%;
+  }
+
+  .logo-hr {
+    margin: 2% auto;
+  }
+
+  .logo-holder {
+    border: solid 1px #272a31;
+    width: 35%;
+    margin: 3% auto;
+  }
+
+  .past-event {
+    margin-top: 4%;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .past-event1,
+  .past-event2 {
+    padding: 0;
+    width: 45%;
+  }
+
+  .past-year {
+    font-family: 'lato', sans-serif;
+    font-weight: 900;
+    color: #f0f2f5;
+    text-align: center;
+    width: 300px;
+    margin: 20% auto;
+  }
+
+  .past-year h4 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 900;
+  }
+
+  .navbar-1 :hover,
+  .menu :hover {
+    color: #ec5242;
+    text-decoration: none;
   }
 }
